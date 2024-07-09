@@ -52,7 +52,7 @@ button {
     font-weight: bold;
     font-size: 20px;
     margin-top: 15px;
-    border: 2px solid forestgreen;
+    border: 2px solid rgb(34, 139, 113);
     background-color: rgb(226, 252, 184);
     cursor: pointer;
 }
@@ -61,7 +61,7 @@ p,
 h3,
 button,
 .switch {
-    color: forestgreen;
+    color: rgb(34, 139, 125);
 }
  
 p {
