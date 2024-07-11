@@ -19,7 +19,7 @@ h1{
   text-align: center;
   font-size: 3em;
   font-family: 'Pacifico',cursive;
-  color: #4DB33D;
+  color: #663db3;
   padding: 1.5em;
 }
 h2{
@@ -28,7 +28,7 @@ h2{
   padding-bottom: 20px;
 }
 h4{
-  color:#4DB33D ;
+  color:#663db3 ;
 }
 input{
   width: 400px;
@@ -37,12 +37,12 @@ input{
   padding-left: 10px;
 }
 .searchBox >button{
-  background-color: #4DB33D;
+  background-color: #663db3;
   height: 38px;
   width: 60px;
   border: none;
   color: white;
-  box-shadow: 0px 3px 2px #439e34;
+  box-shadow: 0px 3px 2px #663db3;
   cursor: pointer;
   padding: 0;
 }
