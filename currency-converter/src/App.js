@@ -8,6 +8,8 @@ import 'react-dropdown/style.css'
 import './App.css';
 
 function App() {
+
+  //initialising all the state variables
   const [info,setInfo]=useState([])
   const [input,setInput]=useState(0)
   const [from,setFrom]=useState("usd")
@@ -33,6 +35,7 @@ const convert=() =>{
   let rate =info[to]
   setOutput(input*rate);
 }
+
 const flip=() =>{
   let temp=from;
   setFrom(to)
