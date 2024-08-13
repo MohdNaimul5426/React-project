@@ -7,7 +7,7 @@ const fetchuser=require('../middleware/fetchuser')
 
 const jwt=require("jsonwebtoken");
 
-const JWT_SECRET='Naimulisagoodb$oy';
+const JWT_SECRET='Naimul$123';
 
 //route 1: create a user using:POST "/api/auth/createuser". Doesn't require auth
 router.post('/createuser',[
@@ -86,7 +86,7 @@ router.post('/login',[
     
         const authToken=jwt.sign(data,JWT_SECRET)
         res.json({authToken})
-        res.json(user)
+        // res.json(user)
     } catch(err){
         console.error(err.message);
         res.status(500).send("Internal server error occured")
